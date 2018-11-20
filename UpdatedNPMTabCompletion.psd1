@@ -1,28 +1,32 @@
+#
+# Modifications copyright (C) 2018 Chris Ryan
+#
+
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = 'NPMTabCompletion.psm1'
+RootModule = 'UpdatedNPMTabCompletion.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.1'
+ModuleVersion = '1.0'
 
 # ID used to uniquely identify this module
-GUID = '47ec7318-fc78-4602-82f8-621c8b384813'
+GUID = '8f89bce5-fec0-4781-8607-28c8f6ecd062'
 
 # Author of this module
-Author = 'Douglas Finke'
+Author = 'Chris Ryan'
 
 # Company or vendor of this module
-CompanyName = 'Doug Finke'
+CompanyName = 'Chris Ryan'
 
 # Copyright statement for this module
-Copyright = 'c 2015 All rights reserved.'
+Copyright = 'c 2018 All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Enables tab completion for npm commands'
+Description = 'Enables tab completion for npm commands. A modified version of NPMTabCompletion by Doug Finke (https://www.powershellgallery.com/packages/NPMTabCompletion)'
 
 # Minimum version of the Windows PowerShell engine required by this module
-# PowerShellVersion = ''
+PowerShellVersion = '5'
 
 # Name of the Windows PowerShell host required by this module
 # PowerShellHostName = ''

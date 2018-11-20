@@ -1,4 +1,6 @@
-Import-Module TabExpansionPlusPlus
+/#
+# Modifications copyright (C) 2018 Chris Ryan
+#/
 
 function NPMCompletion {
     param($wordToComplete, $commandAst)
@@ -93,4 +95,4 @@ function NPMCompletion {
 
 NPMCompletion
 
-Register-ArgumentCompleter -Command 'npm' -Native -ScriptBlock $function:NPMCompletion -Description 'Complete parameters and arguments to npm.cmd'
+Register-ArgumentCompleter -Command 'npm' -Native  -ScriptBlock $function:NPMCompletion
